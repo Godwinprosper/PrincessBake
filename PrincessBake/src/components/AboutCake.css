@@ -1,0 +1,116 @@
+.about-cake {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 5% 10%;
+
+}
+
+.about-cake-grid {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  column-gap: 2rem;
+}
+
+.about-cake-grid-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-cake-grid-left span {
+  font-size: 2rem;
+  color: rgb(240, 134, 50);
+}
+
+.about-cake-grid-left h2 {
+  font-size: 4.6rem;
+}
+
+.about-cake-grid-left p {
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.about-cake-grid-right {
+  width: 100%;
+}
+
+
+
+.skill-item {
+  margin-bottom: 1.8rem;
+}
+
+.skill-header {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+.skill-label {
+  font-size: 1.6rem;
+}
+
+.skill-percentage {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.skill-bar {
+  height: 10px;
+  /* thickness of the bar – adjust to taste (8–14px common) */
+  background: #e0e0e0;
+  /* light gray background */
+  overflow: hidden;
+  position: relative;
+  transition: all 2s;
+}
+
+.skill-fill {
+  height: 100%;
+  width: 95%;
+  background: black;
+}
+
+.class-skill {
+  width: 80%;
+}
+
+.recipes-skill {
+  width: 90%;
+}
+
+
+
+/* 1024px */
+@media(max-width:64rem) {
+  .about-cake {
+    padding: 5%;
+  }
+}
+
+/* 768px */
+@media(max-width:48rem) {
+  .about-cake {
+    padding: 5% 2%;
+  }
+
+  .about-cake-grid {
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+  }
+}
+
+/* 576px  */
+@media (max-width:36rem) {}

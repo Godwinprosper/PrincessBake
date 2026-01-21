@@ -1,0 +1,28 @@
+.product-section{
+  padding: 0 10%;
+}
+.product-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 2rem;
+  /* border: 2px solid red; */
+}
+
+@media(max-width:64rem){
+  .product-grid{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+/* 768px */
+@media(max-width:48rem){
+  .product-grid{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+/* 576px  */
+@media (max-width:36rem) {
+  .product-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}

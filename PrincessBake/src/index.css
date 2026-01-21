@@ -1,0 +1,45 @@
+:root {
+  --primary-colore: black;
+  --secoundry-colore:#f08632;
+  --text-color: white;
+}
+html {
+  font-size: 62.5%;   
+  
+  /* Scroll smoothly when using anchor links */
+  scroll-behavior: smooth;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 4. Body – basic readable defaults */
+body {
+  font-family: system-ui, -apple-system, sans-serif;         
+  min-height: 100dvh;     
+  /* max-width: 192rem; */
+  /* border: 1PX solid red; */
+  /* Optional but nice in 2025/2026 */
+  text-wrap: pretty;          /* better line breaks */
+  margin-bottom: 1000px;
+}
+
+
+/* 1024px */
+@media(max-width:64rem){
+  html{
+    font-size: 50%;
+  }
+}
+/* 768px */
+@media(max-width:48rem){
+  html{
+    font-size: 37.5%;
+  }
+}
+
+/* 576px  */
+@media (max-width:36rem) {
+  
+}

@@ -1,0 +1,136 @@
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header-Top {
+  height: auto;
+  padding: 1.5rem;
+  /* border: 2px solid orange; */
+
+}
+
+.header-Top div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-Top img {
+  width: 4rem;
+}
+
+.header-Top div span, .side-bar span {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.header-Top .menuIcone {
+  display: none;
+}
+
+.menuIcone img {
+  border: 1px solid black;
+  padding: 0.2rem;
+}
+
+/* HEADER BOTTOM */
+
+.header-bottom nav {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--secoundry-colore);
+}
+
+.header-bottom nav ul, .side-bar nav ul{
+  list-style: none;
+}
+
+.header-bottom li {
+  display: inline-block;
+}
+
+.header-bottom a{
+  display: inline-block;
+  color: white;
+  padding: 2rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header-bottom a:hover {
+  background-color: black;
+}
+
+/* sidebar */
+.side-bar{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  /* width: 100%; */
+  background-color: white;
+  padding: 2rem;
+}
+.side-bar .logo-ctn{
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.side-bar img{
+  width: 4rem;
+}
+.side-bar a, .side-bar .close-sidebar{
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
+.side-bar .close-sidebar{
+  background-color: orange;
+  text-align: center;
+  width: auto;
+  margin-bottom: 2rem;
+}
+.side-bar a:hover{
+  background-color: black;
+  color: white;
+}
+
+.menu-off{
+  display: none;
+}
+.display-menu{
+  display: initial;
+}
+
+/* responsiveness */
+@media (max-width:768px) {
+  .header-Top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .header-Top .menuIcone {
+    display: inline-block;
+  }
+
+  .header-bottom{
+    display: none;
+  }
+}
