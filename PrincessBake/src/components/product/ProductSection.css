@@ -8,6 +8,7 @@
   /* border: 2px solid red; */
 }
 
+
 @media(max-width:64rem){
   .product-grid{
     grid-template-columns: repeat(3,1fr);
@@ -24,5 +25,12 @@
 @media (max-width:36rem) {
   .product-grid{
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* 330px  */
+@media (max-width:20.625rem) {
+  .product-grid{
+    grid-template-columns: 1fr;
   }
 }
