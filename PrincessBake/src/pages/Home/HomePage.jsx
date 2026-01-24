@@ -3,6 +3,7 @@ import { Header } from '../../components/Header'
 import { HeroSection } from './HeroSection'
 import { ItemSwipe } from './itemSwipe'
 import { ProductSection } from '../../components/product/ProductSection'
+import { ClassCake } from './ClassCake'
 import './HomePage.css'
 
 export function HomePage(){
@@ -13,6 +14,7 @@ export function HomePage(){
       <AboutCake/>
       <ItemSwipe/>
       <ProductSection/>
+      <ClassCake/>
     </>
   )
 }
