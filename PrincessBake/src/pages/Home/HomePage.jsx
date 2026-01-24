@@ -4,6 +4,7 @@ import { HeroSection } from './HeroSection'
 import { ItemSwipe } from './itemSwipe'
 import { ProductSection } from '../../components/product/ProductSection'
 import { ClassCake } from './ClassCake'
+import { OurTeam } from '../../components/OurTeam'
 import './HomePage.css'
 
 export function HomePage(){
@@ -15,6 +16,7 @@ export function HomePage(){
       <ItemSwipe/>
       <ProductSection/>
       <ClassCake/>
+      <OurTeam/>
     </>
   )
 }

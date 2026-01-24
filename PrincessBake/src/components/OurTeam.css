@@ -1,0 +1,106 @@
+.our-team-section {
+  padding: 5% 10%;
+  background-color: white;
+}
+
+.top-section {
+  display: flex;
+}
+
+.top-right {
+  flex: 1;
+
+}
+
+.top-right span {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--secoundry-colore);
+}
+
+.top-right h2 {
+  font-size: 4.6rem;
+  color: black;
+  margin-top: 0rem;
+}
+
+.top-left .join-btn {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 1.5rem 2rem;
+  font-size: 1.4rem;
+}
+
+/* bottom secction */
+.bottom-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.baker-detail {
+  background-color: rgba(255, 255, 255, 0.904);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 30%;
+  transform: translateY(20rem);
+  transition: all 0.3s ease-out;
+}
+
+.baker-detail h6 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.baker-detail span {
+  font-size: 1.4rem;
+}
+
+.image-container:hover .baker-detail {
+  transform: translateY(0);
+}
+
+/* 768px */
+@media(max-width:48rem) {
+  .bottom-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+/* 576px  */
+@media (max-width:36rem) {
+  .bottom-section {
+    grid-template-columns: 1fr;
+  }
+
+  .image-container {
+    max-height: 50rem;
+  }
+
+  .top-section {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}
