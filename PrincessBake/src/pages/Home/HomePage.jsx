@@ -5,6 +5,7 @@ import { ItemSwipe } from './itemSwipe'
 import { ProductSection } from '../../components/product/ProductSection'
 import { ClassCake } from './ClassCake'
 import { OurTeam } from '../../components/OurTeam'
+import { Testimonial } from '../../components/Testimonial'
 import './HomePage.css'
 
 export function HomePage(){
@@ -17,6 +18,7 @@ export function HomePage(){
       <ProductSection/>
       <ClassCake/>
       <OurTeam/>
+      <Testimonial/>
     </>
   )
 }

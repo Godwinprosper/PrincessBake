@@ -20,13 +20,6 @@ export function OurTeam(){
       </div>
       
       <div className='bottom-section'>
-        <div className="image-container">
-          <img src={amaka} alt="image" />
-          <div className='baker-detail'>
-            <h6>Randy Butler</h6>
-            <span>Decorater</span>
-          </div>
-        </div>
 
         <div className="image-container">
           <img src={amaka} alt="image" />
@@ -51,6 +44,15 @@ export function OurTeam(){
             <span>Decorater</span>
           </div>
         </div>
+
+        <div className="image-container">
+          <img src={amaka} alt="image" />
+          <div className='baker-detail'>
+            <h6>Randy Butler</h6>
+            <span>Decorater</span>
+          </div>
+        </div>
+        
       </div>
     </div>
   )

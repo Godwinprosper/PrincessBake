@@ -39,21 +39,21 @@
   background-color: white;
 }
 
-.swiper{
+.item-swipe-section .swiper{
   border-bottom:1px solid var(--secoundry-colore) !important;
 }
-.swiper-slide{
+.item-swipe-section .swiper-slide{
   display: flex !important;
   justify-content: center;
 }
-.swiper-button-prev, .swiper-button-next{
+.item-swipe-section .swiper-button-prev, .item-swipe-section .swiper-button-next{
   color: var(--secoundry-colore) !important;
   width: 2.2rem !important;
   height: 2.2rem !important;
 }
-.swiper-button-prev{
+.item-swipe-section .swiper-button-prev{
   left: -4px !important;
 }
-.swiper-pagination-bullet{
+.item-swipe-section .swiper-pagination-bullet{
   background-color: var(--secoundry-colore) !important;
 }
