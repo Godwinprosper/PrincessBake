@@ -1,0 +1,198 @@
+/* .footer-section{
+  display: flex;
+  justify-content: center;
+} */
+.footer-top {
+  background-image: url("../assets/images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  justify-content: center;
+}
+
+.footer-content {
+  padding: 0 1rem;
+  min-width: 338.8px;
+}
+
+.footer-content-container h6 {
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+/* footer left content */
+
+.footer-content ul {
+  list-style: none;
+}
+
+.footer-content ul li {
+  font-size: 1.4rem;
+  line-height: 4rem;
+  color: rgb(164, 164, 164);
+}
+
+/* footer middle content*/
+.footer-content .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footer-content .logo-container .logo-img-container {
+  width: 4rem;
+}
+
+.logo-img-container img {
+  width: 100%;
+}
+
+.footer-content p {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  color: rgb(164, 164, 164);
+}
+
+.footer-middle-content p {
+  text-align: center;
+}
+
+
+/* footer right-content */
+.footer-right-content-wrapper {
+  padding-left: 3rem;
+}
+
+.footer-right-content p {
+  margin-bottom: 3rem;
+  color: rgb(164, 164, 164);
+}
+
+.footer-input-container {
+  display: flex;
+  background-color: rgba(253, 243, 234, 0.2);
+}
+
+.footer-input-container input {
+  flex: 1;
+  border: none;
+  font-size: 1.6rem;
+  padding-left: 2rem;
+  background: none;
+  color: white;
+}
+
+.footer-input-container input::placeholder {
+  color: white;
+  opacity: 1;
+  font-style: italic;
+}
+
+.footer-section input:focus {
+  outline: none;
+}
+
+.footer-input-container .submit-email-button {
+  width: 10%;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.footer-right-content .submit-email-button img {
+  width: 100%;
+}
+
+/* footer bottom */
+.footer-bottom {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.copyright {
+  width: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: self-start;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.copyright .right {
+  margin-right: 4rem;
+}
+
+.copyright .left {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 433.2px;
+}
+
+.copyright .left div {
+  padding: 0 2rem;
+  border-left: 2px solid rgb(136, 136, 136);
+}
+
+.left div a {
+  color: rgb(136, 136, 136);
+  text-decoration: none;
+}
+
+/* 1024px */
+@media(max-width:64rem) {
+  .footer-content-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 85%;
+  }
+
+  .footer-middle-content p {
+    text-align: start;
+  }
+
+  .footer-right-content-wrapper {
+    padding-left: 0;
+  }
+
+  .copyright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 2rem;
+  }
+
+  .copyright .right {
+    margin-right: 0;
+  }
+
+  .copyright .left {
+    justify-content: center;
+  }
+}
+
+/* 768px */
+@media(max-width:48rem) {
+  .footer-content-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+
+}
+
+/* 576px  */
+@media (max-width:36rem) {}

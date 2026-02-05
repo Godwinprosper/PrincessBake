@@ -6,6 +6,9 @@ import { ProductSection } from '../../components/product/ProductSection'
 import { ClassCake } from './ClassCake'
 import { OurTeam } from '../../components/OurTeam'
 import { Testimonial } from '../../components/Testimonial'
+import { FollowUs } from '../../components/FollowUs'
+import { LocationMap } from '../../components/LocationMap'
+import { Footer } from '../../components/Footer'
 import './HomePage.css'
 
 export function HomePage(){
@@ -19,6 +22,9 @@ export function HomePage(){
       <ClassCake/>
       <OurTeam/>
       <Testimonial/>
+      <FollowUs/>
+      <LocationMap/>
+      <Footer/>
     </>
   )
 }
