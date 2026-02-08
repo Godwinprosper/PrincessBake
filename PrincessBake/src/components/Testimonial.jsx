@@ -4,8 +4,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import rating from '../assets/images/rating/rating-45.png'
-import profilePic from '../assets/images/amina.jpg'
+import { comments } from "../Data/comments"
+// import rating from '../assets/images/rating/rating-45.png'
+// import profilePic from '../assets/images/amina.jpg'
 
 import './Testimonial.css'
 
@@ -33,7 +34,44 @@ export function Testimonial() {
           },
         }}
       >
-        <SwiperSlide>
+        {
+          comments.map((comment) => {
+            return (
+              <SwiperSlide>
+                <div className="testimonial-card">
+                  <div className="card-top">
+                    <div className='client-container'>
+
+                      <div className='profile-container'>
+                        <img src={comment.profilePic} alt="" />
+                      </div>
+
+                      <div className="clent-detail">
+                        <h5>{comment.name}</h5>
+                        <span>{comment.location}</span>
+                      </div>
+
+                    </div>
+
+                    <div className='rating-container'>
+                      <img src={comment.rating} alt="" />
+                    </div>
+
+                  </div>
+
+                  <div className="card-bottom">
+                    <p>{comment.comment}</p>
+                  </div>
+                </div>
+
+
+              </SwiperSlide>
+            )
+          })
+        }
+
+
+        {/* <SwiperSlide>
           <div className="testimonial-card">
             <div className="card-top">
               <div className='client-container'>
@@ -181,7 +219,9 @@ export function Testimonial() {
           </div>
 
 
-        </SwiperSlide>
+        </SwiperSlide> */}
+
+
       </Swiper>
     </div>
   )
