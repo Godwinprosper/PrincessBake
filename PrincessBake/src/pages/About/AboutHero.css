@@ -1,0 +1,41 @@
+.about-hero-section{
+  padding: 2% 10%;
+}
+.about-hero-content{
+  /* border: 2px solid black; */
+}
+.about-hero-content .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.about-hero-content .top h2{
+  font-size: 5rem;
+  color: black;
+}
+.about-hero-content .top a{
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+  padding-right: 1.5rem;
+  border-right: 2px solid black;
+}
+.about-hero-content .top span{
+  font-size: 1.6rem;
+  color: black;
+  padding-left: 2rem;
+}
+
+/* vedio section */
+
+.video-container video{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  /* If you want the video to fill the container and crop to fit,
+     set the container height and use object-fit: cover; */
+  /* height: 100%;
+     object-fit: cover; */
+}
