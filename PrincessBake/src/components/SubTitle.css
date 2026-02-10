@@ -1,0 +1,22 @@
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8rem;
+}
+.top h2{
+  font-size: 5rem;
+  color: black;
+}
+.top a{
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+  padding-right: 1.5rem;
+  border-right: 2px solid black;
+}
+.top span{
+  font-size: 1.6rem;
+  color: black;
+  padding-left: 2rem;
+}
