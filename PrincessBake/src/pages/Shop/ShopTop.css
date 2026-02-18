@@ -1,0 +1,50 @@
+.Shop-top{
+  padding: 2% 10%;
+}
+
+.search-section{
+  display:flex;
+  width: 80%;
+  border: 1px solid #e8e8e8;
+  font-size: 1.6rem;
+  align-items: center;
+  /* padding:1rem 0 ; */
+}
+
+.Shop-top .Option-section{
+  padding: 0 2rem;
+  position: relative;
+  border-right: 1px solid #e8e8e8;
+}
+.dropdown-content{
+  position: absolute;
+  border: 1px solid #e8e8e8;
+  top: 3rem;
+  right: 0;
+  left: 0;
+  display: none;
+}
+.show{
+  display: block;
+}
+.dropdown-content div{
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+}
+.dropdown-content div:hover{
+  background-color: rgba(128, 128, 128, 0.104);
+}
+
+
+
+
+.search-section input{
+  flex: 1;
+  border: none;
+  height: 4rem;
+  outline: none;
+  padding: 0 2rem;
+}
+.search-section .search-icon{
+  padding: 0 2rem;
+}

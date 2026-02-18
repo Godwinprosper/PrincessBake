@@ -29,9 +29,9 @@ export function Header() {
         <nav>
           <ul>
             
-            <li><NavLink to="#" className='link'>Home</NavLink></li>
+            <li><NavLink to="/" className='link'>Home</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
-            <li><NavLink to="#">Shop</NavLink></li>
+            <li><NavLink to="/shop">Shop</NavLink></li>
             <li><NavLink to="#">Pages</NavLink></li>
             <li><NavLink to="#">Blog</NavLink></li>
             <li><NavLink to="#">Contact</NavLink></li>
@@ -47,9 +47,9 @@ export function Header() {
         <nav>
           <ul>
             <li><div className="close-sidebar" onClick={dontDisplayMenu}>X</div></li>
-            <li><NavLink to="#" className='link'>Home</NavLink></li>
+            <li><NavLink to="/" className='link'>Home</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
-            <li><NavLink to="#">Shop</NavLink></li>
+            <li><NavLink to="/shop">Shop</NavLink></li>
             <li><NavLink to="#">Pages</NavLink></li>
             <li><NavLink to="#">Blog</NavLink></li>
             <li><NavLink to="#">Contact</NavLink></li>
