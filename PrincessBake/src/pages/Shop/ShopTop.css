@@ -4,22 +4,30 @@
 
 .search-section{
   display:flex;
-  width: 80%;
+  max-width: 80%;
   border: 1px solid #e8e8e8;
   font-size: 1.6rem;
-  align-items: center;
-  /* padding:1rem 0 ; */
 }
 
 .Shop-top .Option-section{
-  padding: 0 2rem;
   position: relative;
-  border-right: 1px solid #e8e8e8;
+}
+.Option{
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  padding-left: 3rem;
+  cursor: pointer;
+}
+.Option::after{
+  content: "";
+  border-right: 2px solid #e8e8e8;
+  margin-left: 2rem;
 }
 .dropdown-content{
   position: absolute;
   border: 1px solid #e8e8e8;
-  top: 3rem;
+  top: 4rem;
   right: 0;
   left: 0;
   display: none;
@@ -40,11 +48,15 @@
 
 .search-section input{
   flex: 1;
+  min-width: 100px;
   border: none;
   height: 4rem;
+  font-size: 2rem;
   outline: none;
   padding: 0 2rem;
+  display: flex;
 }
 .search-section .search-icon{
   padding: 0 2rem;
+  align-content: center;
 }
