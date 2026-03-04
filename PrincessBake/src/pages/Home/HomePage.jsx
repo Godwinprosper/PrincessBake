@@ -9,6 +9,7 @@ import { Testimonial } from '../../components/Testimonial'
 import { FollowUs } from '../../components/FollowUs'
 import { LocationMap } from '../../components/LocationMap'
 import { Footer } from '../../components/Footer'
+import { productData } from '../../Data/product'  /*not all the product, take note of the file path */
 import './HomePage.css'
 
 export function HomePage(){
@@ -18,7 +19,7 @@ export function HomePage(){
       <HeroSection/>
       <AboutCake/>
       <ItemSwipe/>
-      <ProductSection/>
+      <ProductSection productData={productData} />
       <ClassCake/>
       <OurTeam/>
       <Testimonial/>

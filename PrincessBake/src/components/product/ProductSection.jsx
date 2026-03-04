@@ -1,9 +1,9 @@
 import {Product} from './product'
-import {productData} from '../../Data/product'
+// import {productData} from '../../Data/product'
 import './ProductSection.css'
 
 
-export function ProductSection(){
+export function ProductSection({productData}){
 
   return(
     <div className="product-section">

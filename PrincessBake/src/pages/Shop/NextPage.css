@@ -1,0 +1,20 @@
+.NextPage-section{
+  padding: 0 10%;
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.NextPage-section button{
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  font-weight: medium;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+.NextPage-section button:hover{
+  background-color: black;
+  color: white;
+}
+
