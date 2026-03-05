@@ -79,6 +79,7 @@ header {
   /* width: 100%; */
   background-color: white;
   padding: 2rem;
+  z-index: 1000;
 }
 .side-bar .logo-ctn{
   display: flex;

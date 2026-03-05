@@ -12,6 +12,7 @@
   border-radius: 0.5rem;
   background-color: transparent;
   cursor: pointer;
+  transition: all ease-in 0.15s;
 }
 .NextPage-section button:hover{
   background-color: black;

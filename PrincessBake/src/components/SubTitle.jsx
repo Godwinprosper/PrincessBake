@@ -8,9 +8,10 @@ export function SubTitle({ title }) {
 
           <div>
             <a href="#">Home</a>
-            <span>About</span>
+            <span>{title}</span>
           </div>
-        </div>
+          
+      </div>
 
     </>
   )

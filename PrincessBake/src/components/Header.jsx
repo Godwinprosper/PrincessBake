@@ -33,7 +33,7 @@ export function Header() {
             <li><NavLink to="/about">About</NavLink></li>
             <li><NavLink to="/shop">Shop</NavLink></li>
             <li><NavLink to="#">Pages</NavLink></li>
-            <li><NavLink to="#">Blog</NavLink></li>
+            <li><NavLink to="/blog">Blog</NavLink></li>
             <li><NavLink to="#">Contact</NavLink></li>
           </ul>
         </nav>
@@ -51,7 +51,7 @@ export function Header() {
             <li><NavLink to="/about">About</NavLink></li>
             <li><NavLink to="/shop">Shop</NavLink></li>
             <li><NavLink to="#">Pages</NavLink></li>
-            <li><NavLink to="#">Blog</NavLink></li>
+            <li><NavLink to="/blog">Blog</NavLink></li>
             <li><NavLink to="#">Contact</NavLink></li>
           </ul>
         </nav>
